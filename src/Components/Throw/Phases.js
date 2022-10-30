@@ -1,7 +1,9 @@
 import { Form, Field } from "react-final-form";
 export const FirstPhase = () => {
+  
   return (
     <>
+
       <Field
         name="throw1"
         render={({ input, meta }) => (
@@ -22,6 +24,7 @@ export const FirstPhase = () => {
           </div>
         )}
       />
+      
     </>
   );
 };
